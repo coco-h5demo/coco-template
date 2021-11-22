@@ -1,5 +1,6 @@
 <template>
   <a>
+    哈哈哈--111
     <img
       :src="obj.src"
       width="100%"

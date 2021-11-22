@@ -1,6 +1,7 @@
 <!-- eslint-disable -->
 <template>
   <div id="slider-view" class="slider-view" v-if="loaded">
+    我是模板-----
     <!-- 编辑容器 -->
     <div
       :data-layout="component.props && component.props._layout"
@@ -133,7 +134,7 @@ import {
   xhrGet,
 } from './utils';
 
-document.domain = "coco-h5.cn" // 设置同域
+document.domain = "aaa.coco-h5.cn" // 设置同域
 
 import CocoComponentsLoader from './coco-remote-component-loader';
 

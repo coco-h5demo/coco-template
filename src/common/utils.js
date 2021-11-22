@@ -70,6 +70,7 @@ let config = {
   pageConfig: getPageConfig()
 };
 
+console.log(config, 'config-23423')
 
 export {
   config
